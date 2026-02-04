@@ -16,10 +16,13 @@
 Build the application:
 ```bash
 make
+```
+Run the application:
+```bash
 ./calculator
 ```
 
 ## Clean
-```
+```bash
 make clean
 ```
