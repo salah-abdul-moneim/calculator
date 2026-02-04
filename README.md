@@ -1,20 +1,19 @@
 # GTK4 Calculator (C)
 
-**هيكلة المشروع**
-- `main.c`: نقطة الدخول (تشغيل التطبيق) فقط.
-- `src/ui.c`: بناء الواجهة (GTK) + الأزرار + منطق التفاعل.
-- `src/calc_eval.c` + `include/calc_eval.h`: محرك حساب التعبيرات والدوال.
-- `src/style_manager.c` + `include/style_manager.h`: تحميل الـCSS من الملفات ومتابعة وضع النظام (فاتح/داكن).
-- `assets/dark.css` و`assets/light.css`: شكل البرنامج.
+## Project Structure
+- `main.c`: Entry point of the application.
+- `src/ui.c`: Builds the GTK interface, buttons, and interaction logic.
+- `src/calc_eval.c` + `include/calc_eval.h`: Expression evaluation engine and functions.
+- `src/style_manager.c` + `include/style_manager.h`: Loads CSS files and manages system theme (light/dark).
+- `assets/dark.css` and `assets/light.css`: Application appearance.
 
-**التعديل السريع**
-- لتغيير الألوان/الأحجام/الشكل: عدّل `assets/dark.css` و`assets/light.css`.
-- لتغيير منطق الحساب أو إضافة دوال جديدة: عدّل `src/calc_eval.c`.
-- لتغيير توزيع الأزرار أو شكل الواجهة: عدّل `src/ui.c`.
+## Quick Editing
+- To change colors, sizes, or style: edit `assets/dark.css` and `assets/light.css`.
+- To change calculation logic or add new functions: edit `src/calc_eval.c`.
+- To change button layout or interface: edit `src/ui.c`.
 
-**البناء والتشغيل**
+## Build and Run
+Build the application:
 ```bash
-make
-./calculator
+make clean && make
 ```
-
