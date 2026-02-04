@@ -15,5 +15,5 @@
 ## Build and Run
 Build the application:
 ```bash
-make clean && make
+make
 ```
