@@ -1,0 +1,133 @@
+* {
+  font-family: "IBM Plex Sans", "Fira Sans", "Inter", sans-serif;
+  font-weight: 600;
+}
+.calc-window {
+  background-image: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  background-color: #f8fafc;
+  border-radius: 18px;
+  background-clip: padding-box;
+  box-shadow: none;
+  border: none;
+}
+.calc-window.maxed {
+  border-radius: 0;
+}
+.content {
+  border-radius: 0 0 18px 18px;
+  background-color: rgba(248, 250, 252, 0.0);
+}
+.content.maxed {
+  border-radius: 0;
+}
+.headerbar {
+  background-color: rgba(226, 232, 240, 0.95);
+  color: #0f172a;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.35);
+  box-shadow: none;
+  border-radius: 18px 18px 0 0;
+}
+.headerbar.maxed {
+  border-radius: 0;
+}
+.titlebar-box {
+  padding: 6px 10px;
+  min-height: 40px;
+}
+.window-controls button {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+/* .titlebar-actions {
+} */
+button.titlebar-btn {
+  min-width: 30px;
+  min-height: 30px;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  background-color: rgba(203, 213, 225, 0.95);
+  background-image: none;
+  border: none;
+  box-shadow: none;
+  color: #0f172a;
+  font-size: 14px;
+}
+button.titlebar-btn image,
+button.titlebar-btn label {
+  margin: 0;
+  padding: 0;
+}
+button.titlebar-btn image {
+  color: #0f172a;
+}
+button.titlebar-btn:hover {
+  background-color: rgba(148, 163, 184, 0.95);
+}
+.header-title {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+.display {
+  color: #0f172a;
+  background-color: rgba(226, 232, 240, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  border-radius: 14px;
+  padding: 12px 14px;
+  font-size: 28px;
+}
+.grid {
+  margin-top: 8px;
+}
+.btn {
+  background-color: rgba(226, 232, 240, 0.95);
+  background-image: none;
+  color: #0f172a;
+  border-radius: 14px;
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+  padding: 10px 0;
+  font-size: 22px;
+  min-width: 32px;
+  min-height: 32px;
+}
+.btn:hover {
+  background-color: rgba(203, 213, 225, 0.95);
+}
+.btn:active {
+  background-color: rgba(148, 163, 184, 0.95);
+}
+.btn-op {
+  background-color: #2563eb;
+  color: #f8fafc;
+}
+.btn-op:hover {
+  background-color: #3b82f6;
+}
+.btn-fn {
+  background-color: rgba(148, 163, 184, 0.95);
+  color: #0f172a;
+}
+.btn-fn:hover {
+  background-color: rgba(203, 213, 225, 0.95);
+}
+.btn-eq {
+  background-color: #e5e7eb;
+  color: #2563eb;
+}
+.btn-eq:hover {
+  background-color: #f3f4f6;
+}
+.btn-clear {
+  background-color: #dc2626;
+  color: #f8fafc;
+}
+.btn-clear:hover {
+  background-color: #ef4444;
+}
+.btn-extra {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
